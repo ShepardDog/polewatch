@@ -50,5 +50,5 @@ Coming soon: Antarctic expansion phase — including penguin colonies, glacial r
 
 
 ## I Built This
-For the foxes, the wolves, the bears, the seals, the owls, and many other animals who cannot code, but still suffer the consequences of human actions and global warming.  
+For the foxes, the wolves, the bears, the seals, the owls, the whales, and many other animals who cannot code, but still suffer the consequences of human actions and global warming.  
 **To the Arctic species — with love.**
