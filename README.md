@@ -49,7 +49,6 @@ Coming soon: Antarctic expansion phase — including penguin colonies, glacial r
 
 
 
-**I built this**  
-For the foxes, the bears, the seals.  
-For those who cannot code, but still suffer the consequences.  
-**To the Arctic species — with love.**X
+## I Built This
+For the foxes, the wolves, the bears, the seals, the owls, the whales, and many other animals who cannot code, but still suffer the consequences of human actions and global warming.  
+**To the Arctic species — with love.**
