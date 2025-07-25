@@ -1,4 +1,4 @@
-# Polewatch
+6o# Polewatch
 
 ![WIP](https://img.shields.io/badge/status-WIP-orange?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
@@ -46,3 +46,10 @@ Coming soon: Antarctic expansion phase — including penguin colonies, glacial r
 
 ## 📁 Repository Structure
 
+
+
+
+**I built this**  
+For the foxes, the bears, the seals.  
+For those who cannot code, but still suffer the consequences.  
+**To the Arctic species — with love.**X
