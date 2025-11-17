@@ -1,0 +1,44 @@
+import pandas as pd
+
+def convert_column_types(df: pd.DataFrame, col_dict: dict, simulate: bool = False) -> pd.DataFrame:
+    """
+    Convert specified columns in a DataFrame to target data types.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        The input DataFrame.
+    col_dict : dict
+        Dictionary mapping column names to target types. Supported types: 'numeric', 'datetime', 'string'.
+    simulate : bool, optional
+        If True, logs intended conversions without modifying the DataFrame. Default is False.
+
+    Returns
+    -------
+    pandas.DataFrame
+        The modified DataFrame with converted columns (unless simulate=True).
+    """
+    type_map = {
+        "numeric": lambda x: pd.to_numeric(x, errors="coerce"),
+        "datetime": lambda x: pd.to_datetime(x, errors="coerce"),
+        "string": lambda x: x.astype(str)
+    }
+
+    with open("conversion_log.txt", "w") as log:
+        for key, dtype in col_dict.items():
+            if key not in df.columns:
+                log.write(f"{key}: ❌ column not found\n")
+                continue
+            if dtype not in type_map:
+                log.write(f"{key}: ❌ unknown type '{dtype}'\n")
+                continue
+            if simulate:
+                log.write(f"{key}: would convert to {dtype}\n")
+                continue
+            try:
+                df[key] = type_map[dtype](df[key])
+                log.write(f"{key}: ✅ converted to {dtype}\n")
+            except Exception as e:
+                log.write(f"{key}: ❌ conversion failed — {str(e)}\n")
+
+    return df
