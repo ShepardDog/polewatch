@@ -56,7 +56,9 @@ To ensure data integrity and remove manual collection errors, the data ingestion
 
 
 ## 📁 Repository Structure
-Current Milestone & Project Status
+
+
+## 📋 Current Milestone & Project Status
 *   [x] Initial 44-table relational database schema design completed.
 *   [ ] Automation of NSIDC data ingestion pipelines using Python Pandas (Active Phase).
 *   [ ] Population of primary sea ice extent index metrics (Historical timeline: 1978–Present).
