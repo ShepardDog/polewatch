@@ -58,6 +58,7 @@ To ensure data integrity and remove manual collection errors, the data ingestion
 ## 📁 Repository Structure
 
 
+
 ## 📋 Current Milestone & Project Status
 *   [x] Initial 44-table relational database schema design completed.
 *   [ ] Automation of NSIDC data ingestion pipelines using Python Pandas (Active Phase).
@@ -65,6 +66,6 @@ To ensure data integrity and remove manual collection errors, the data ingestion
 *   [ ] Generation of unified SQL queries correlating seasonal sea ice minimums with targeted population biometrics.
 
 
-## I Built This
+## 🐻‍❄️ I Built This
 For the foxes, the wolves, the bears, the seals, the owls, the whales, and many other animals who cannot code, but still suffer the consequences of human actions and global warming.  
 **To the Arctic species — with love.**
